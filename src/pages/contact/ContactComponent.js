@@ -7,6 +7,7 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
+import Puneet from "../../assests/font-awesome/Puneet.jpeg";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -30,7 +31,9 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                src={Puneet}
+                height={300}
+                width={300}
                 alt=""
               />
             </div>
@@ -69,7 +72,7 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
+                <a {...styles} className="general-btn" href={"/"}>
                   My Medium Profile
                 </a>
               </div>
