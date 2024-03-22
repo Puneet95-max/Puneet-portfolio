@@ -311,7 +311,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "hrishi2.png",
+    // profile_image_path: "hrishi2.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -319,7 +319,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
-    link: "https://medium.com/@hrishipatel99",
+    // link: "https://medium.com/@hrishipatel99",
     avatar_image_path: "blogs_image.svg",
   },
 };
